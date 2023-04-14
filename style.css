@@ -116,7 +116,7 @@ footer ul li {
   margin: 0 16px;
 }
 
-@media (min-width: 1000px) {
+@media (min-width: 800px) {
   h1 {
     font-size: 22px;
     line-height: 29px;
