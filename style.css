@@ -115,6 +115,11 @@ footer ul {
 footer ul li {
   margin: 0 16px;
 }
+footer ul li img:hover {
+  cursor: pointer;
+  filter: invert(59%) sepia(38%) saturate(6007%) hue-rotate(314deg)
+    brightness(105%) contrast(97%);
+}
 
 @media (min-width: 800px) {
   h1 {
