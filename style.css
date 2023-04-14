@@ -29,7 +29,7 @@ body {
 .content {
   min-width: 375px;
   padding: 24px;
-  height: 100vh;
+  max-height: 100vh;
 }
 h1 {
   font-weight: 700;
