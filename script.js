@@ -23,9 +23,10 @@ const countdown = () => {
   document.getElementById("minutes").innerHTML = timeMinutes;
   document.getElementById("seconds").innerHTML = timeSeconds;
 
-  if (difference < 0) {
+  if (difference <= 0) {
     clearInterval(countdown);
-    document.getElementById("countdown").innerHTML = "EXPIRED";
+    document.getElementById("countdown").innerHTML =
+      "<span style='color: red;'> E X P I R E D</span>";
   }
 };
 
