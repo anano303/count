@@ -22,6 +22,11 @@ const countdown = () => {
   document.getElementById("hours").innerHTML = timeHours;
   document.getElementById("minutes").innerHTML = timeMinutes;
   document.getElementById("seconds").innerHTML = timeSeconds;
+
+  if (difference < 0) {
+    clearInterval(countdown);
+    document.getElementById("countdown").innerHTML = "EXPIRED";
+  }
 };
 
 setInterval(countdown, 1000);
